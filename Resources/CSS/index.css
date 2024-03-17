@@ -1,0 +1,67 @@
+/* This is the CSS page for the portfolio project langing page */
+
+
+body {
+    width: 100%;
+    justify-items: center;
+    display: flexbox;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient( to top left, rgb(116, 168, 168), white);
+    text-align: center;
+    font-size: 32px;
+    
+}
+
+header {
+    overflow: auto;
+    width: 100%;
+ 
+}
+
+ul {
+    list-style-position: inside;
+}
+
+main {
+    overflow: auto;
+    width: 100%;
+
+}
+
+#about {
+    display: flexbox;
+    width: 100%;
+    text-align: center;
+}
+
+#about img {
+    max-width: 25%;
+    margin: 25px 25px;
+    max-height: 300px;
+    position: relative;
+}
+
+#about p {
+    width: 100%;
+    max-height: 300px;
+    padding: 10px;
+    border: solid 1px black;
+} 
+
+h1 {
+    color: midnightblue;
+}
+
+h2 {
+    color: midnightblue;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+
+footer {
+   position: sticky;
+}
+

@@ -1,0 +1,54 @@
+/* CSS page to accompany the JS practice page */
+
+#redBoxSection {
+    text-align: center;
+    position: relative;
+    border-bottom: solid 1px black;
+    height: 300px;
+    width: 100%;
+}
+
+#colorBox {
+    height: 200px;
+    width: 200px;
+    color: white;
+    border: solid 1px black;
+    position: absolute;
+    left: 42%;
+    top: 25%;
+}
+
+.button {
+    position: relative;
+}
+
+
+#randomNumberSection {
+    position: relative;
+    text-align: center;
+    border-bottom: solid 1px black;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+
+#randomColorMouseOver {
+    position: relative;
+    text-align: center;
+    border-bottom: solid 1px black;
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+}
+
+#multiColorBox {
+    height: 200px;
+    width: 200px;
+    color: white;
+    border: solid 1px black;
+    position: absolute;
+    left: 42%;
+    top: 25%;
+}
+
+
