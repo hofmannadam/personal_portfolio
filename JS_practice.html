@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="./Resources/CSS/JS_practice.css" type="text/css" rel="stylesheet">
+        <link href="Resources/CSS/JS_practice.css" type="text/css" rel="stylesheet">
         <title>Javascript and CSS Practice</title>
     </head>
     <body>
@@ -25,8 +25,27 @@
                     <p>Mouseover the box to randomly change its colour</p>
                     <p id="colour-values">The current RGB colour values are: <span id = 'valueForRed'></span> <span id = 'valueForGreen'></span> <span id = 'valueForBlue'>*</span></p>
                 </section>
+                <section>
+                    <p>Can we use the innerHTML function here?</p>
+                    <p id="innerme">Change this text</p>
+                </section>
+                <section>
+                    <h2>Here we will try to create a form that accepts inputs and returns outputs</h2>
+                    <form id="nameform">
+                        <label for="hello" >This button should print "Hello"</label>
+                        <button id="hello">Click to print "Hello"</button>
+                        <div id="hellodiv"></div>
+
+                        <label for="returntext">This input and submit should return the text inside:</label>
+                        <input id="returntext" placeholder="Type text here"/></br>
+                        <input type="submit" id="submittext" />Click to submit text
+                        <div id="returntextdiv">Returned text here</div>
+                    </form>
+                </section>
         </main>
-        <Footer></Footer>
-        <script type="text/javascript" src="./Resources/JS/JS_practice.js"></script>
+        <Footer>
+          
+        </Footer>
+        <script type="text/javascript" src="Resources/JS/JS_practice.js"></script>
     </body>
 </html>

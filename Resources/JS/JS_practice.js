@@ -59,6 +59,45 @@ function multiColorBoxMouseOver() {
 multiColorBox1.addEventListener('mouseover', multiColorBoxMouseOver);
 
 
+//InnerHTML Usage
+
+document.getElementById('innerme').innerHTML = 'I am a string inserted by innerHTML';
+
+//Form Input Section
+
+//Hello Button
+
+const helloButton = document.getElementById('hello');
+const helloDiv = document.getElementById('hellodiv');
+
+function printHello(e) {
+    e.preventDefault();
+    const newChild = helloDiv.appendChild(document.createElement('p'))
+    newChild.innerHTML = "Hello!"
+}
+
+helloButton.addEventListener('click', printHello)
+
+//End of Hello Button
+
+
+// Return Input Value Button
+
+const submitTextButton = document.getElementById('submittext');
+const returnTextDiv = document.getElementById('returntextdiv');
+
+function submitTextHandler(e) {
+    e.preventDefault();
+    let inputTextValue = document.getElementById('returntext').value;
+    returnTextDiv.innerHTML = inputTextValue;
+}
+
+submitTextButton.addEventListener('click', submitTextHandler);
+
+// End of Return Input Value Button
+
+
+
 
 
 
