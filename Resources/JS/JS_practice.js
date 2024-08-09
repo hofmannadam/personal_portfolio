@@ -96,6 +96,12 @@ submitTextButton.addEventListener('click', submitTextHandler);
 
 // End of Return Input Value Button
 
+//Import module attempt
+
+import name from './modulepractice';
+
+document.getElementById('modulediv').innerHTML = name;
+
 
 
 
